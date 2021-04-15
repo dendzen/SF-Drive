@@ -13,7 +13,9 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "node-sass": "^5.0.0"
+    "node-sass": "^5.0.0",
+    "pug": "^3.0.2",
+    "pug-loader": "^2.4.0"
   },
   "devDependencies": {
     "css-loader": "^5.0.2",
