@@ -19,7 +19,13 @@
     <select />
   </component>
   <component name="ChangeListManager">
+<<<<<<< Updated upstream
     <list default="true" id="d42f9758-0606-4296-92b8-0e5bace14c35" name="Default Changelist" comment="" />
+=======
+    <list default="true" id="d42f9758-0606-4296-92b8-0e5bace14c35" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+    </list>
+>>>>>>> Stashed changes
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -105,11 +111,16 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="828" y="431" key="#ESLint" timestamp="1618339360566">
+    <state x="828" y="431" key="#ESLint" timestamp="1618480664840">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
+<<<<<<< Updated upstream
     <state x="828" y="431" key="#ESLint/0.0.1920.1040@0.0.1920.1040" timestamp="1618339360566" />
     <state x="603" y="409" key="#Stylelint" timestamp="1618339033298">
+=======
+    <state x="828" y="431" key="#ESLint/0.0.1920.1040@0.0.1920.1040" timestamp="1618480664840" />
+    <state x="603" y="409" key="#Stylelint" timestamp="1618480241950">
+>>>>>>> Stashed changes
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="603" y="409" key="#Stylelint/0.0.1920.1040@0.0.1920.1040" timestamp="1618339033298" />
