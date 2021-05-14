@@ -26,8 +26,9 @@
   <component name="ChangeListManager">
     <list default="true" id="df43a240-9eb0-4b4a-b781-26567a5cbeb6" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json.sav" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Faq/Footer/Copyright/Copyright.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Faq/Footer/Copyright/Copyright.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/AppFonts.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/AppFonts.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,7 +64,7 @@
       <option name="presentableId" value="Default" />
       <updated>1621002877251</updated>
       <workItem from="1621002879222" duration="2393000" />
-      <workItem from="1621005901704" duration="1537000" />
+      <workItem from="1621005901704" duration="3174000" />
     </task>
     <servers />
   </component>
