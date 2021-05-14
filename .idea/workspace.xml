@@ -1,71 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:pr" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="df43a240-9eb0-4b4a-b781-26567a5cbeb6" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.eslintrc.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitattributes" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/module20.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/watcherTasks.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.prettierrc.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.stylelintrc.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/about.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/13a29228654d5c5ec9c482a267efa4af.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/17d0cac04a3f124945e14d55323a71d5.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/3cf52547e362189007fd9bf6ed1d624d.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/4f39c5796e60c9d8e7327a00e9a4442e.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/555b00aa7c3fafc4c823ac0bed02eac9.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/891989e8ce6ebdc319fb6591415495c6.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/8cda08d76f03128863073a99690d8f15.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/ad2445ca4e46908fbf7bb4e0fff71139.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/main.js.LICENSE.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/faq.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/css/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/css/style.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fonts/Roboto-Black.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fonts/Roboto-BlackItalic.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fonts/Roboto-Bold.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fonts/Roboto-BoldItalic.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fonts/Roboto-Italic.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fonts/Roboto-Light.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fonts/Roboto-LightItalic.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fonts/Roboto-Medium.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fonts/Roboto-MediumItalic.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fonts/Roboto-Regular.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fonts/Roboto-Thin.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fonts/Roboto-ThinItalic.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fonts/icons.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fonts/icons.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fonts/icons.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fonts/icons.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/Ellipse 10-xs.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/Ellipse 10.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/Ellipse 11-xs.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/Ellipse 11.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/Ellipse 12-xs.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/Ellipse 12.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/Ellipse 13-xs.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/Ellipse 13.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/Ellipse 14-xs.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/Ellipse 14.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/Ellipse 9-xs.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/Ellipse 9.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/Intagram.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/img/Logo.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.pug" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scripts/script.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/scss/style.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json.sav" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Faq/Footer/Copyright/Copyright.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Faq/Footer/Copyright/Copyright.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,7 +50,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="ts.external.directory.path" value="C:\Users\fedos\Documents\GitHub\SF-Drive_homework-master\node_modules\typescript\lib" />
+    <property name="ts.external.directory.path" value="C:\Users\fedos\Documents\GitHub\SF-Drive\node_modules\typescript\lib" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -101,11 +63,22 @@
       <option name="presentableId" value="Default" />
       <updated>1621002877251</updated>
       <workItem from="1621002879222" duration="2393000" />
-      <workItem from="1621005901704" duration="315000" />
+      <workItem from="1621005901704" duration="1537000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="2" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

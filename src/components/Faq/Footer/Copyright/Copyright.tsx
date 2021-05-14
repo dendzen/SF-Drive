@@ -4,7 +4,7 @@ import "./Copyright.scss";
 
 function Copyright() {
     return (
-        <a href="" className="footer__copyright" title="Сopyright">© SkillDrive Inc. 2020</a>
+        <a href="" className="footer__copyright" title="Сopyright">© SkillDrive Inc. 2021</a>
     );
 }
 
