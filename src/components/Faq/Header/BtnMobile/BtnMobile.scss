@@ -1,0 +1,20 @@
+
+
+.header-menu__btnMobile {
+    display: none;
+    border: none;
+    background-color: transparent;
+}
+
+@media screen and (max-width: 1000px) {
+
+    .header-menu__btnMobile {
+        display:block;
+        float: left;
+        margin: 20px 20px;
+        color: #000000;
+        width: 18px;
+        height: 12px;
+        margin: 28px 23px;
+    }
+}

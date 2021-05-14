@@ -1,48 +1,81 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="BranchesTreeState">
-    <expand>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
-    </expand>
-    <select />
-  </component>
   <component name="ChangeListManager">
-<<<<<<< Updated upstream
-    <list default="true" id="d42f9758-0606-4296-92b8-0e5bace14c35" name="Default Changelist" comment="" />
-=======
-    <list default="true" id="d42f9758-0606-4296-92b8-0e5bace14c35" name="Default Changelist" comment="">
+    <list default="true" id="df43a240-9eb0-4b4a-b781-26567a5cbeb6" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.eslintrc.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitattributes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/module20.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/watcherTasks.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.prettierrc.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.stylelintrc.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/about.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/13a29228654d5c5ec9c482a267efa4af.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/17d0cac04a3f124945e14d55323a71d5.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/3cf52547e362189007fd9bf6ed1d624d.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/4f39c5796e60c9d8e7327a00e9a4442e.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/555b00aa7c3fafc4c823ac0bed02eac9.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/891989e8ce6ebdc319fb6591415495c6.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/8cda08d76f03128863073a99690d8f15.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/ad2445ca4e46908fbf7bb4e0fff71139.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/main.js.LICENSE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/faq.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/css/style.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fonts/Roboto-Black.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fonts/Roboto-BlackItalic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fonts/Roboto-Bold.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fonts/Roboto-BoldItalic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fonts/Roboto-Italic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fonts/Roboto-Light.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fonts/Roboto-LightItalic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fonts/Roboto-Medium.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fonts/Roboto-MediumItalic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fonts/Roboto-Regular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fonts/Roboto-Thin.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fonts/Roboto-ThinItalic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fonts/icons.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fonts/icons.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fonts/icons.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fonts/icons.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/Ellipse 10-xs.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/Ellipse 10.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/Ellipse 11-xs.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/Ellipse 11.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/Ellipse 12-xs.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/Ellipse 12.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/Ellipse 13-xs.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/Ellipse 13.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/Ellipse 14-xs.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/Ellipse 14.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/Ellipse 9-xs.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/Ellipse 9.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/Intagram.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/img/Logo.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.pug" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scripts/script.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/scss/style.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.config.js" afterDir="false" />
     </list>
->>>>>>> Stashed changes
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Pug File" />
-      </list>
-    </option>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectId" id="1qd1yQIMnxkTT8djvKjSXzUt9kI" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectId" id="1sWywP1d0DOmX9gRpEs4QfivnXA" />
   <component name="ProjectViewState">
     <option name="autoscrollToSource" value="true" />
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -53,104 +86,26 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../SF-Drive_homework/module20" />
-    <property name="node.js.detected.package.eslint" value="true" />
-    <property name="node.js.detected.package.standard" value="true" />
-    <property name="node.js.detected.package.stylelint" value="true" />
-    <property name="node.js.path.for.package.eslint" value="project" />
-    <property name="node.js.path.for.package.standard" value="project" />
-    <property name="node.js.path.for.package.stylelint" value="project" />
-    <property name="node.js.selected.package.eslint" value="(autodetect)" />
-    <property name="node.js.selected.package.standard" value="" />
-    <property name="node.js.selected.package.stylelint" value="C:\Users\fedos\Documents\GitHub\SF-Drive_homework\module20\node_modules\stylelint" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
-  </component>
-  <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\fedos\Documents\GitHub\SF-Drive_homework\module20\src" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\fedos\Documents\GitHub\SF-Drive_homework\module20\src" />
-      <recent name="C:\Users\fedos\Documents\GitHub\SF-Drive_homework\module20" />
-    </key>
+    <property name="ts.external.directory.path" value="C:\Users\fedos\Documents\GitHub\SF-Drive_homework-master\node_modules\typescript\lib" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="d42f9758-0606-4296-92b8-0e5bace14c35" name="Default Changelist" comment="" />
-      <created>1617394906189</created>
+      <changelist id="df43a240-9eb0-4b4a-b781-26567a5cbeb6" name="Default Changelist" comment="" />
+      <created>1621002877251</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1617394906189</updated>
-      <workItem from="1617394907421" duration="857000" />
-      <workItem from="1617521806256" duration="34000" />
-      <workItem from="1617976979018" duration="212000" />
-      <workItem from="1618219106196" duration="1894000" />
-      <workItem from="1618247210359" duration="4353000" />
-      <workItem from="1618297823996" duration="3367000" />
-      <workItem from="1618340305022" duration="6000" />
-      <workItem from="1618340329530" duration="873000" />
+      <updated>1621002877251</updated>
+      <workItem from="1621002879222" duration="2393000" />
+      <workItem from="1621005901704" duration="315000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="2" />
-  </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State />
-          </value>
-        </entry>
-      </map>
-    </option>
-    <option name="oldMeFiltersMigrated" value="true" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="828" y="431" key="#ESLint" timestamp="1618480664840">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-<<<<<<< Updated upstream
-    <state x="828" y="431" key="#ESLint/0.0.1920.1040@0.0.1920.1040" timestamp="1618339360566" />
-    <state x="603" y="409" key="#Stylelint" timestamp="1618339033298">
-=======
-    <state x="828" y="431" key="#ESLint/0.0.1920.1040@0.0.1920.1040" timestamp="1618480664840" />
-    <state x="603" y="409" key="#Stylelint" timestamp="1618480241950">
->>>>>>> Stashed changes
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="603" y="409" key="#Stylelint/0.0.1920.1040@0.0.1920.1040" timestamp="1618339033298" />
-    <state x="763" y="309" key="#Web_Browsers" timestamp="1618219499978">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="763" y="309" key="#Web_Browsers/0.0.1920.1040@0.0.1920.1040" timestamp="1618219499978" />
-    <state x="629" y="298" key="EditFileWatcherDialog" timestamp="1618316187961">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="629" y="298" key="EditFileWatcherDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1618316187961" />
-    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1618315728565">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1618315728565" />
-    <state width="1899" height="282" key="GridCell.Tab.0.bottom" timestamp="1618219453381">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1899" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1618219453381" />
-    <state width="1899" height="282" key="GridCell.Tab.0.center" timestamp="1618219453381">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1899" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1618219453381" />
-    <state width="1899" height="282" key="GridCell.Tab.0.left" timestamp="1618219453381">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1899" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1618219453381" />
-    <state width="1899" height="282" key="GridCell.Tab.0.right" timestamp="1618219453381">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1899" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1618219453381" />
   </component>
 </project>

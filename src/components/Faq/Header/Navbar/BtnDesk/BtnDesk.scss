@@ -1,0 +1,18 @@
+.header-navbar__btnDesk {
+    background-color: transparent;
+    cursor: pointer;
+    Width: 106px;
+    Height: 43px;
+    border-radius: 6px;
+    margin: 0px 40px;
+    padding: 5px 20px;
+
+    &:hover{
+        color: grey;
+        cursor:pointer;
+    }
+
+    .header-navbar__btnDesk_btnText {
+        font-weight: bold;
+    }
+}

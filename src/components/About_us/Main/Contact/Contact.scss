@@ -1,0 +1,24 @@
+.main-contact {
+    padding-top: 80px;
+    background: #F7F9FB;
+
+    .main-contact__header {
+        text-align: center;
+        font-size: 48px;
+        margin: 0 auto;
+        padding-bottom: 40px;    
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .main-contact {
+        padding-top: 40px;
+
+        .main-contact__header {
+            text-align: center;
+            font-size: 24px;
+            margin: 0 auto;         
+            padding-bottom: 0px;   
+        }
+    }
+}
