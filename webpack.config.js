@@ -1,71 +1,144 @@
-const MiniCssExtractPlugin = require('mini-css-extract-plugin');
-const HtmlWebpackPlugin = require("html-webpack-plugin");
-const path = require("path");
+const path = require('path')
+const HtmlWebpackPlugin = require('html-webpack-plugin')
+const {CleanWebpackPlugin} = require('clean-webpack-plugin')
+const CopyWebpackPlugin = require('copy-webpack-plugin')
+const MiniCssExtractPlugin = require('mini-css-extract-plugin')
 
+const isDev = process.env.NODE_ENV === 'development'
 
 module.exports = {
-    entry: './src/index.tsx',
-    mode: "development",
-    devtool: 'inline-source-map',
+    context: path.resolve(__dirname, 'src'),
+    mode: 'development',
+    entry: './index.js',
     output: {
-        filename: "main.js"
+        filename: '[contenthash].js',
+        path: path.resolve(__dirname, 'dist'),
+        publicPath: '/'
     },
-    resolve: {
-        extensions: [".js", ".jsx", ".json", ".ts", ".tsx"]
+    devServer: {
+        contentBase: './dist',
+        port: 4200,
+        hot:true,
+        historyApiFallback: true
     },
     plugins: [
-        new MiniCssExtractPlugin(),
         new HtmlWebpackPlugin({
-            template: "./src/About_us.html",
-            filename: "About_us.html"
+            filename: 'index.html',
+            template: './index.html',
+            minify: {
+                collapseWhitespace: !isDev
+            }
         }),
-        new HtmlWebpackPlugin({
-            template: "./src/FAQ.html",
-            filename: "FAQ.html"
+
+        new CleanWebpackPlugin(),
+        new MiniCssExtractPlugin({
+            filename: '[name].[contenthash].css'
         }),
-    ],
-    devServer: {
-        contentBase: path.join(__dirname, "dist/"),
-        hot: true,
-        staticOptions: { index: "About_us.html" },
-        stats: {
-            children: false,
-            maxModules: 0
-        }
-      },
-    module: {
-        rules: [
+        new CopyWebpackPlugin({
+            patterns: [
             {
+                from: path.resolve(__dirname, 'src/assets/arrowDown.svg'),
+                to: path.resolve(__dirname, 'dist/assets')
+            },
+            {
+                from: path.resolve(__dirname, 'src/assets/arrowUp.svg'),
+                to: path.resolve(__dirname, 'dist/assets')
+            },
+            {
+                from: path.resolve(__dirname, 'src/assets/AS.png'),
+                to: path.resolve(__dirname, 'dist/assets')
+            },
+            {
+                from: path.resolve(__dirname, 'src/assets/burger.svg'),
+                to: path.resolve(__dirname, 'dist/assets')
+            },
+            {
+                from: path.resolve(__dirname, 'src/assets/DI.png'),
+                to: path.resolve(__dirname, 'dist/assets')
+            },
+            {
+                from: path.resolve(__dirname, 'src/assets/FAQpic.svg'),
+                to: path.resolve(__dirname, 'dist/assets')
+            },
+            {
+                from: path.resolve(__dirname, 'src/assets/ID.png'),
+                to: path.resolve(__dirname, 'dist/assets')
+            },
+            {
+                from: path.resolve(__dirname, 'src/assets/II.png'),
+                to: path.resolve(__dirname, 'dist/assets')
+            },
+            {
+                from: path.resolve(__dirname, 'src/assets/MS.png'),
+                to: path.resolve(__dirname, 'dist/assets')
+            },
+            {
+                from: path.resolve(__dirname, 'src/assets/NM.png'),
+                to: path.resolve(__dirname, 'dist/assets')
+            },
+            {
+                from: path.resolve(__dirname, 'src/assets/pic.svg'),
+                to: path.resolve(__dirname, 'dist/assets')
+            },
+            {
+                from: path.resolve(__dirname, 'src/assets/SkillDriveLogo.svg'),
+                to: path.resolve(__dirname, 'dist/assets')
+            },
+            {
+                from: path.resolve(__dirname, 'src/assets/VK.svg'),
+                to: path.resolve(__dirname, 'dist/assets')
+            },
+            {
+                from: path.resolve(__dirname, 'src/assets/insta.svg'),
+                to: path.resolve(__dirname, 'dist/assets')
+            },
+            {
+                from: path.resolve(__dirname, 'src/assets/facebook.svg'),
+                to: path.resolve(__dirname, 'dist/assets')
+            },
+            {
+                from: path.resolve(__dirname, 'src/assets/Authorization.svg'),
+                to: path.resolve(__dirname, 'dist/assets')
+            },
+            {
+                from: path.resolve(__dirname, 'src/assets/backArrow.svg'),
+                to: path.resolve(__dirname, 'dist/assets')
+            },
+            {
+                from: path.resolve(__dirname, 'src/assets/cross.svg'),
+                to: path.resolve(__dirname, 'dist/assets')
+            },
+            {
+                from: path.resolve(__dirname, 'src/assets/recImage.svg'),
+                to: path.resolve(__dirname, 'dist/assets')
+            }
+        ]})
+    ],
+    module: {
+        rules:[
+            {
+                test: /\.scss$/,
                 use: [{
                     loader: MiniCssExtractPlugin.loader,
-                    options: {
-                        esModule: true,
-                        publicPath: ''
+                    options:{
+                        publicPath: './'
                     }
-                }, 'css-loader'],
-                test: /\.css$/
+                }, 'css-loader', 'sass-loader']
             },
             {
-                test: /\.(woff|ttf|eot|svg|png|jpg|gif|jpeg)$/,
-                loader: 'file-loader',
-                options: {
-                    name: '[name].[ext]',
-                    outputPath: './asset',
-                    esModule: false,
-                }
+                test: /\.ttf$/,
+                use: ['file-loader']
             },
             {
-                test: /\.(ts|tsx)$/,
+                test: /\.js$/,
                 exclude: /node_modules/,
-                use: {
-                    loader: "awesome-typescript-loader"
-                }
+                use: ["babel-loader"]
             },
             {
-                test: /\.s[ac]ss$/i,
-                use: ["style-loader", "css-loader", "sass-loader"]
+                test: /\.jsx$/,
+                exclude: /node_modules/,
+                use: ["babel-loader"]
             }
         ]
     }
-
-};
+}

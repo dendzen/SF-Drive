@@ -1,0 +1,110 @@
+@import "./../_Common/_variables.scss";
+
+button{
+    outline: none;
+}
+
+.recWarning{
+    text-align: center;
+    font-family: Roboto;
+    font-size: 14px;
+    line-height: 16px;
+    color: #EB5757;
+    margin-top: 8px;
+}
+
+.recTopSection{
+    display: flex;
+    justify-content: space-between;
+    .exitButton{
+        padding: 0;
+        border: none;
+        margin-top: 25px;
+        margin-right: 25px;
+        background-color: white;
+    }
+    .backButton{
+        margin-top: 25px;
+        margin-left: 25px;
+    }
+}
+
+.recImageWrapper{
+    text-align: center;
+    margin-top: 70px;
+}
+
+.recHeader{
+    margin-top: 30px;
+    font-family: 'Roboto';
+    text-align: center;
+    margin-bottom: 0;
+}
+
+.recPara{
+    font-family: Roboto;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    color: #1B1B1B;
+}
+
+.recInputs{
+    margin: 30px 12px;
+    .input{
+            margin: 0;
+            margin-top: 12px;
+            background: white;
+            border: 2px solid #E0E0E0;
+            box-sizing: border-box;
+            border-radius: 6px;
+            outline: none;
+            font-family: Roboto;
+            width: 100%;
+            padding: 14px 0px 14px 12px;
+            font-size: 14px;
+
+            &:hover{
+                border-color: #61a1999f;
+            }
+            &:focus{
+                border: 2px solid #61A199;
+            }
+    }
+}
+
+.recSendformWrapper{
+    text-align: center;
+    margin-right: 20px;
+    margin-left: 20px;
+    .recSendform{
+        border: none;
+        align-items: center;
+        background: #61A199;
+        border-radius: 6px;
+        padding-top: 16px;
+        padding-bottom: 16px;
+        font-family: Roboto;
+        font-size: 16px;
+        line-height: 19px;
+        color: #FFFFFF;
+        text-align: center;
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 600px) {
+    .recInputs{
+        margin-right: 77px;
+        margin-left: 77px;
+    }
+
+    .recImage{
+        width: 302px;
+        height: 181px;
+    }
+
+    .recSendform{
+        width: 130px !important;
+    }
+}
