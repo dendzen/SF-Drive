@@ -9,16 +9,6 @@
     "build": "webpack",
     "start:dev": "webpack serve --mode development --open"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Edidych/module17_homework.git"
-  },
-  "author": "Evgeniy_Didych",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Edidych/module17_homework/issues"
-  },
-  "homepage": "https://github.com/Edidych/module17_homework#readme",
   "devDependencies": {
     "@types/react": "latest",
     "@types/react-dom": "latest",
@@ -27,17 +17,17 @@
     "css-loader": "latest",
     "express": "^4.17.1",
     "file-loader": "latest",
-    "html-webpack-plugin": "^4.5.2",
+    "html-webpack-plugin": "^5.3.1",
     "loader": "latest",
     "mini-css-extract-plugin": "latest",
     "mongoose": "^5.12.3",
     "sass": "latest",
     "sass-loader": "latest",
     "style-loader": "latest",
-    "terser-webpack-plugin": "latest",
+    "terser-webpack-plugin": "^5.1.1",
     "typescript": "latest",
-    "webpack": "^4.46.0",
-    "webpack-cli": "^3.3.8",
+    "webpack": "^5.35.0",
+    "webpack-cli": "^4.6.0",
     "webpack-dev-server": "^3.11.2",
     "yargs": "^13.3.2"
   },

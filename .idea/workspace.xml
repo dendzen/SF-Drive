@@ -28,7 +28,6 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/AppFonts.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/AppFonts.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,7 +63,9 @@
       <option name="presentableId" value="Default" />
       <updated>1621002877251</updated>
       <workItem from="1621002879222" duration="2393000" />
-      <workItem from="1621005901704" duration="3174000" />
+      <workItem from="1621005901704" duration="3719000" />
+      <workItem from="1621610105375" duration="598000" />
+      <workItem from="1621626602127" duration="555000" />
     </task>
     <servers />
   </component>
@@ -81,5 +82,12 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="629" y="298" key="EditFileWatcherDialog" timestamp="1621008962429">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="629" y="298" key="EditFileWatcherDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1621008962429" />
   </component>
 </project>
