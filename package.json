@@ -38,7 +38,7 @@
     "jwt-decode": "^3.1.2",
     "mongo": "^0.1.0",
     "mongoose": "^5.12.3",
-    "node-sass": "^5.0.0",
+    "node-sass": "^6.0.1",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
     "react-router-dom": "^5.2.0",
