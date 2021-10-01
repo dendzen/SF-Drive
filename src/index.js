@@ -1,7 +1,6 @@
-import React from "react";
-import ReactDOM from "react-dom";
-import { BrowserRouter } from "react-router-dom";
+import React from 'react';
+import ReactDOM from 'react-dom';
+import SFDrive from "./components/SFDrive";
+import {BrowserRouter} from "react-router-dom";
 
-import App from "./components/App.js";
-
-ReactDOM.render(<BrowserRouter><App/></BrowserRouter>, document.getElementById("root"));
+ReactDOM.render(<BrowserRouter><SFDrive/></BrowserRouter>, document.getElementById('root'));
